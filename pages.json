@@ -16,7 +16,7 @@
     }, {
       "path": "pages/loans/loans",
       "style": {
-        "navigationBarTitleText": "祥瑞借"
+        "navigationBarTitleText": "翔瑞借"
       }
     }, {
       "path": "pages/discover/discover",
@@ -29,15 +29,15 @@
       "path": "pages/my/my",
       "style": {
         "navigationBarTitleText": "我的",
-        "enablePullDownRefresh": false
+        "enablePullDownRefresh": true
       }
 
     }
   ],
   "globalStyle": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uView",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "祥瑞金融",
+    "navigationBarBackgroundColor": "#3476F1",
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
