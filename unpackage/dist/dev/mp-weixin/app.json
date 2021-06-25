@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/center/index"
+    "pages/fortune/fortune",
+    "pages/loans/loans",
+    "pages/discover/discover",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
@@ -18,15 +21,33 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "static/index.png",
-        "selectedIconPath": "static/index-selected.png",
+        "iconPath": "static/images/发现/组 4760@3x.png",
+        "selectedIconPath": "static/images/首页/组 4713@3x.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/center/index",
-        "iconPath": "static/center.png",
-        "selectedIconPath": "static/center-selected.png",
-        "text": "我"
+        "pagePath": "pages/fortune/fortune",
+        "iconPath": "static/images/个人/组 4776@3x.png",
+        "selectedIconPath": "static/images/财富/组 4731@3x.png",
+        "text": "财富"
+      },
+      {
+        "pagePath": "pages/loans/loans",
+        "iconPath": "static/images/个人/组 4777@3x.png",
+        "selectedIconPath": "static/images/祥瑞借/组 4741@3x.png",
+        "text": "祥瑞借"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "static/images/首页/组 4716@3x.png",
+        "selectedIconPath": "static/images/发现/组 4763@3x.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/首页/组 4717@3x.png",
+        "selectedIconPath": "static/images/个人/组 4779@3x.png",
+        "text": "我的"
       }
     ]
   },

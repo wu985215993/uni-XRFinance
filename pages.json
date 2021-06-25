@@ -1,42 +1,75 @@
 {
-	"easycom": {
-		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
-	},
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uView-index"
-			}
-		},
-		{
-			"path": "pages/center/index",
-			"style": {
-				"navigationBarTitleText": "uView-center"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uView",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar": {
-	    "color": "#909399",
-	    "selectedColor": "#303133",
-	    "borderStyle": "black",
-	    "backgroundColor": "#ffffff",
-	    "list": [{
-	        "pagePath": "pages/index/index",
-	        "iconPath": "static/index.png",
-	        "selectedIconPath": "static/index-selected.png",
-	        "text": "首页"
-	    }, {
-	        "pagePath": "pages/center/index",
-	        "iconPath": "static/center.png",
-	        "selectedIconPath": "static/center-selected.png",
-	        "text": "我"
-	    }]
-	}
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [{
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/fortune/fortune",
+      "style": {
+        "navigationBarTitleText": "财富"
+      }
+    }, {
+      "path": "pages/loans/loans",
+      "style": {
+        "navigationBarTitleText": "祥瑞借"
+      }
+    }, {
+      "path": "pages/discover/discover",
+      "style": {
+        "navigationBarTitleText": "发现",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/images/发现/组 4760@3x.png",
+      "selectedIconPath": "static/images/首页/组 4713@3x.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/fortune/fortune",
+      "iconPath": "static/images/个人/组 4776@3x.png",
+      "selectedIconPath": "static/images/财富/组 4731@3x.png",
+      "text": "财富"
+    }, {
+      "pagePath": "pages/loans/loans",
+      "iconPath": "static/images/个人/组 4777@3x.png",
+      "selectedIconPath": "static/images/祥瑞借/组 4741@3x.png",
+      "text": "祥瑞借"
+    }, {
+      "pagePath": "pages/discover/discover",
+      "iconPath": "static/images/首页/组 4716@3x.png",
+      "selectedIconPath": "static/images/发现/组 4763@3x.png",
+      "text": "发现"
+    }, {
+      "pagePath": "pages/my/my",
+      "iconPath": "static/images/首页/组 4717@3x.png",
+      "selectedIconPath": "static/images/个人/组 4779@3x.png",
+      "text": "我的"
+    }]
+  }
 }
